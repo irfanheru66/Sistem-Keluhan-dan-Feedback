@@ -1,0 +1,180 @@
+CRITICAL - 2020-12-20 01:17:54 --> Trait 'App\Controllers\App\Models\KeluhanModel' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-20 01:19:21 --> Trait 'App\Controllers\app\Models\KeluhanModel' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-20 01:20:01 --> Trait 'App\Controllers\app\Models\UserModel' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-20 01:21:03 --> Call to undefined function App\Controllers\KeluhanModel()
+#0 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-20 01:21:27 --> Class 'app\Models\KeluhanModel' not found
+#0 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-20 01:22:08 --> Class 'app\Models\KeluhanModel' not found
+#0 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-20 01:23:31 --> Class 'app\Models\KeluhanModel' not found
+#0 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-20 01:23:36 --> Class 'app\Models\KeluhanModel' not found
+#0 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-20 01:23:38 --> Class 'app\Models\KeluhanModel' not found
+#0 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-20 01:25:10 --> Class 'App\Controllers\app\Models\KeluhanModel' not found
+#0 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-20 01:25:18 --> Class 'App\Controllers\app\Models\KeluhanModel' not found
+#0 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-20 01:25:30 --> Class 'app\Models\KeluhanModel' not found
+#0 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-20 01:29:07 --> Undefined index: id
+#0 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Home.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-20 01:29:43 --> Illegal offset type
+#0 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-20 05:06:43 --> Undefined index: user_id
+#0 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Warga.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Warga->index()
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-20 05:51:51 --> Undefined variable: model
+#0 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Warga.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Warga->index()
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-20 05:52:22 --> Undefined variable: model
+#0 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Warga.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Warga->index()
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-20 05:52:45 --> Undefined variable: model
+#0 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Warga.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Warga->index()
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-20 05:58:17 --> Cannot add or update a child row: a foreign key constraint fails (`sistemkeluhanweb`.`keluhan`, CONSTRAINT `penanggap` FOREIGN KEY (`penganggap`) REFERENCES `user` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Warga.php(32): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Warga->add()
+#8 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#9 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-12-20 06:02:43 --> Undefined index: judul
+#0 C:\xampp\htdocs\sistemKeluhan\app\Views\wargaStuff\Tabel Keluhan.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('wargaStuff/Tabe...', Array, true)
+#3 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Warga.php(17): view('wargaStuff/Tabe...', Array)
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Warga->index()
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#6 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-20 06:40:05 --> Undefined index: isi
+#0 C:\xampp\htdocs\sistemKeluhan\app\Views\wargaStuff\DetailView.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('wargaStuff/Deta...', Array, true)
+#3 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Warga.php(42): view('wargaStuff/Deta...', Array)
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Warga->Detail('2')
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#6 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-20 06:56:30 --> Array to string conversion
+#0 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-20 07:28:43 --> Cannot redeclare App\Controllers\Pemerintah::Detail()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-20 07:46:19 --> Unknown column 'penanggap' in 'field list'
+#0 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `keluhan...')
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `keluhan...')
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `keluhan...')
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query('UPDATE `keluhan...', Array, false)
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Pemerintah.php(37): CodeIgniter\Model->update(Array, Array)
+#6 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pemerintah->edit()
+#7 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemerintah))
+#8 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}

@@ -1,0 +1,68 @@
+CRITICAL - 2020-12-21 06:17:14 --> Undefined variable: title
+#0 C:\xampp\htdocs\sistemKeluhan\app\Views\template.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('./template', Array, true)
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('userStuff/login...', Array, true)
+#4 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Login.php(21): view('userStuff/login...')
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-21 06:17:19 --> Undefined index: divisi
+#0 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Pemerintah.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pemerintah->index()
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemerintah))
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-21 06:17:31 --> Undefined variable: title
+#0 C:\xampp\htdocs\sistemKeluhan\app\Views\template.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('./template', Array, true)
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('userStuff/login...', Array, true)
+#4 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Login.php(21): view('userStuff/login...')
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-21 06:19:36 --> Undefined variable: title
+#0 C:\xampp\htdocs\sistemKeluhan\app\Views\template.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('./template', Array, true)
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('wargaStuff/Tabe...', Array, true)
+#4 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Warga.php(17): view('wargaStuff/Tabe...', Array)
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Warga->index()
+#6 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-21 06:23:32 --> Undefined variable: title
+#0 C:\xampp\htdocs\sistemKeluhan\app\Views\template.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('./template', Array, true)
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('wargaStuff/Deta...', Array, true)
+#4 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Warga.php(44): view('wargaStuff/Deta...', Array)
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Warga->Detail('2')
+#6 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-21 06:26:15 --> Undefined variable: title
+#0 C:\xampp\htdocs\sistemKeluhan\app\Views\template.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('./template', Array, true)
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('wargaStuff/Tamb...', Array, true)
+#4 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Warga.php(23): view('wargaStuff/Tamb...')
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Warga->tambahView()
+#6 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#7 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}

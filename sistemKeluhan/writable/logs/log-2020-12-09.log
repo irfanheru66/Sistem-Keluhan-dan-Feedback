@@ -1,0 +1,74 @@
+CRITICAL - 2020-12-09 13:57:40 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Register.php(24): CodeIgniter\Model->save(Array)
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Register->save()
+#6 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-09 13:57:40 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\sistemKeluhan\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Register), true)
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Debug\Exceptions.php(308): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-09 14:25:23 --> Unknown column 'user_email' in 'where clause'
+#0 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Login.php(23): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->in()
+#7 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-12-09 14:42:39 --> Call to undefined function App\Controllers\sodium_crypto_pwhash_str_verify()
+#0 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->in()
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-09 14:43:25 --> Call to undefined function App\Controllers\sodium_crypto_pwhash_str_verify()
+#0 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->in()
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-09 14:46:52 --> Undefined variable: verify_pas
+#0 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->in()
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-09 14:48:24 --> Array to string conversion
+#0 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->in()
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-09 15:07:54 --> Undefined variable: session
+#0 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Login.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

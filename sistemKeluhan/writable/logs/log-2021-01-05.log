@@ -1,0 +1,22 @@
+CRITICAL - 2021-01-05 01:55:28 --> Undefined variable: pengirim
+#0 C:\xampp\htdocs\sistemKeluhan\app\Views\wargaStuff\DetailView.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('wargaStuff/Deta...', Array, true)
+#3 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Admin.php(57): view('wargaStuff/Deta...', Array)
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->detailK('10')
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-01-05 06:06:25 --> Undefined index: Id
+#0 C:\xampp\htdocs\sistemKeluhan\app\Views\adminStuff\Tabel Keluhan.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('adminStuff/Tabe...', Array, true)
+#3 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Admin.php(35): view('adminStuff/Tabe...', Array)
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Admin->keluhan()
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

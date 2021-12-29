@@ -1,0 +1,42 @@
+CRITICAL - 2020-12-30 06:21:04 --> You must use the "set" method to update an entry.
+#0 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2430): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#2 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Pemerintah.php(39): CodeIgniter\Model->update(Array, Array)
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pemerintah->edit()
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemerintah))
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-12-30 06:21:26 --> You must use the "set" method to update an entry.
+#0 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2430): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#2 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Pemerintah.php(39): CodeIgniter\Model->update(Array, Array)
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pemerintah->edit()
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemerintah))
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-12-30 06:41:17 --> Undefined variable: r
+#0 C:\xampp\htdocs\sistemKeluhan\app\Views\pemerintahStuff\DetailView.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('pemerintahStuff...', Array, true)
+#3 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Pemerintah.php(29): view('pemerintahStuff...', Array)
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pemerintah->Detail('10')
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemerintah))
+#6 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-30 06:47:56 --> Undefined variable: komen
+#0 C:\xampp\htdocs\sistemKeluhan\app\Views\pemerintahStuff\DetailView.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('pemerintahStuff...', Array, true)
+#3 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Pemerintah.php(34): view('pemerintahStuff...', Array)
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Pemerintah->Detail('10')
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemerintah))
+#6 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

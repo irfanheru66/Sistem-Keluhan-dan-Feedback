@@ -1,0 +1,19 @@
+CRITICAL - 2021-01-04 21:59:35 --> Too few arguments to function CodeIgniter\Model::findColumn(), 0 passed in C:\xampp\htdocs\sistemKeluhan\app\Controllers\Warga.php on line 59 and exactly 1 expected
+#0 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Warga.php(59): CodeIgniter\Model->findColumn()
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Warga->Detail('2')
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#3 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-01-04 22:02:34 --> Array to string conversion
+#0 C:\xampp\htdocs\sistemKeluhan\app\Views\wargaStuff\DetailView.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('wargaStuff/Deta...', Array, true)
+#3 C:\xampp\htdocs\sistemKeluhan\app\Controllers\Warga.php(69): view('wargaStuff/Deta...', Array)
+#4 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Warga->Detail('2')
+#5 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Warga))
+#6 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistemKeluhan\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sistemKeluhan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
